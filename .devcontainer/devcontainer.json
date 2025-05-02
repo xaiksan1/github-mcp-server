@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "build": "cd cmd/github-mcp-server && go build -v",
+    "test": "go test -race ./..."
+  }
+}
