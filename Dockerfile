@@ -18,7 +18,7 @@ RUN --mount=type=cache,target=/root/.cache/go-build CGO_ENABLED=0 go build -ldfl
     -o github-mcp-server cmd/github-mcp-server/main.go
 
 # Make a stage to run the app
-FROM gcr.io/distroless/base-debian12
+FROM alpine:latest
 # Set the working directory
 WORKDIR /server
 # Copy the binary from the build stage
