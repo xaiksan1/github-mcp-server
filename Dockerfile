@@ -25,9 +25,3 @@ WORKDIR /server
 COPY --from=build /build/github-mcp-server .
 # Command to run the server
 CMD ["./github-mcp-server", "stdio"]
-
-# Define environment variables
-ARG GITHUB_PERSONAL_ACCESS_TOKEN
-ARG GH_HOST
-ENV GITHUB_PERSONAL_ACCESS_TOKEN=${GITHUB_PERSONAL_ACCESS_TOKEN}
-ENV GH_HOST=${GH_HOST}

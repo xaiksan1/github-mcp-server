@@ -1,6 +1,7 @@
 {
   "tasks": {
-    "build": "cd cmd/github-mcp-server && go build -v",
-    "test": "go test -race ./..."
+    "test": "npm run test",
+    "build": "npm run build",
+    "launch": "npm run start"
   }
 }
