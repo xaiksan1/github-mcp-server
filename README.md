@@ -4,7 +4,7 @@ The GitHub MCP Server is a [Model Context Protocol (MCP)](https://modelcontextpr
 server that provides seamless integration with GitHub APIs, enabling advanced
 automation and interaction capabilities for developers and tools.
 
-[![Install with Docker in VS Code](https://img.shields.io/badge/VS_Code-Install_Server-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=github&inputs=%5B%7B%22id%22%3A%22github_token%22%2C%22type%22%3A%22promptString%22%2C%22description%22%3A%22GitHub%20Personal%20Access%20Token%22%2C%22password%22%3Atrue%7D%5D&config=%7B%22command%22%3A%22docker%22%2C%22args%22%3A%5B%22run%22%2C%22-i%22%2C%22--rm%22%2C%22-e%22%2C%22GITHUB_PERSONAL_ACCESS_TOKEN%22%2C%22ghcr.io%2Fgithub%2Fgithub-mcp-server%22%5D%2C%22env%22%3A%7B%22GITHUB_PERSONAL_ACCESS_TOKEN%22%3A%22%24%7Binput%3Agithub_token%7D%22%7D%7D) [![Install with Docker in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-Install_Server-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=github&inputs=%5B%7B%22id%22%3A%22github_token%22%2C%22type%22%3A%22promptString%22%2C%22description%22%3A%22GitHub%20Personal%20Access%20Token%22%2C%22password%22%3Atrue%7D%5D&config=%7B%22command%22%3A%22docker%22%2C%22args%22%3A%5B%22run%22%2C%22-i%22%2C%22--rm%22%2C%22-e%22%2C%22GITHUB_PERSONAL_ACCESS_TOKEN%22%2C%22ghcr.io%2Fgithub%2Fgithub-mcp-server%22%5D%2C%22env%22%3A%7B%22GITHUB_PERSONAL_ACCESS_TOKEN%22%3A%22%24%7Binput%3Agithub_token%7D%22%7D%7D&quality=insiders)
+[![Install with Docker in VS Code](https://img.shields.io/badge/VS_Code-Install_Server-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=github&inputs=%5B%7B%22id%22%3A%22github_token%22%2C%22type%22%3A%22promptString%22%2C%22description%22%3A%22GitHub%20Personal%20Access%20Token%22%2C%22password%22%3Atrue%7D%5D&config=%7B%22command%22%3A%22docker%22%2C%22args%22%3A%5B%22run%22%2C%22-i%22%2C%22--rm%22%2C%22-e%22%2C%22GITHUB_PERSONAL_ACCESS_TOKEN%22%2C%22ghcr.io%2Fgithub%2Fgithub-mcp-server%22%5D%2C%22env%22%3A%7B%22GITHUB_PERSONAL_ACCESS_TOKEN%22%3A%22%24%7Binput%3Agithub_token%7D%22%7D%7D) [![Install with Docker in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-Install_Server-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=github&inputs=%5B%7B%22id%22%3A%22github_token%22%2C%22type%22%3A%22promptString%22%2C%22description%22%3A%22GitHub%20Personal%20Access%20Token%22%2C%22password%22%3Atrue%7D%5D&config=%7B%22command%22%3A%22docker%22%2C%22args%22%3A%5B%22run%22%2C%22-i%22%2C%22--rm%22%2C%22-e%22%2C%22GITHUB_PERSONAL_ACCESS_TOKEN%22%2C%22ghcr.io%2Fgithub%2Fgithub-mcp-server%22%5D%2C%22env%22%3A%22%24%7Binput%3Agithub_token%7D%22%7D%7D&quality=insiders)
 
 ## Use Cases
 
@@ -430,3 +430,33 @@ export GITHUB_MCP_TOOL_ADD_ISSUE_COMMENT_DESCRIPTION="an alternative description
 ## License
 
 This project is licensed under the terms of the MIT open source license. Please refer to [MIT](./LICENSE) for the full terms.
+
+## Dark Fire AI Cyberpunk Theme
+
+To set up the Dark Fire AI Cyberpunk theme, follow these steps:
+
+1. Add the `index.html` file to your project.
+2. Add the `style.css` file to your project.
+3. Add the `script.js` file to your project.
+
+### Responsive Design Techniques
+
+The Dark Fire AI Cyberpunk theme uses the following responsive design techniques:
+
+- **CSS Media Queries**: The layout adapts to different screen sizes and devices.
+- **Flexible Grid Layouts**: The layout uses flexible grid layouts to ensure a consistent appearance across devices.
+
+### Accessibility Features
+
+The Dark Fire AI Cyberpunk theme includes the following accessibility features:
+
+- **Accessible Color Contrast**: The text and background colors have sufficient contrast to be readable by users with visual impairments.
+- **Alternative Text for Images**: Descriptive alt text is added to images to ensure that screen readers can convey the content to visually impaired users.
+- **Semantic HTML**: Appropriate HTML elements (e.g., `<header>`, `<nav>`, `<main>`, `<footer>`) are used to create a meaningful document structure that can be easily navigated by assistive technologies.
+- **Keyboard Accessibility**: All interactive elements (e.g., buttons, links, forms) can be accessed and operated using a keyboard.
+- **ARIA Roles and Attributes**: ARIA roles and attributes are used to provide additional context to assistive technologies.
+- **Captions and Transcripts for Multimedia**: Videos and audio content have captions and transcripts available for users with hearing impairments.
+
+### GitHub Repository
+
+For more information and to view the source code, visit the [GitHub Repository](https://github.com/xaiksan1/github-mcp-server).
