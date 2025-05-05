@@ -88,6 +88,28 @@ More about using MCP server tools in VS Code's [agent mode documentation](https:
 }
 ```
 
+### Build and Run Docker Container
+
+To build and run the Docker container for this repository, follow these steps:
+
+1. **Create a `.env` file**: Create a file named `.env` in the root directory of the repository. This file will contain the environment variables you want to set. For example:
+   ```env
+   GITHUB_PERSONAL_ACCESS_TOKEN=your_token_here
+   GH_HOST=your_github_host_here
+   ```
+
+2. **Build the Docker image**: Run the following command in the root directory of the repository to build the Docker image:
+   ```sh
+   docker build -t github-mcp-server .
+   ```
+
+3. **Run the Docker container**: After building the image, run the following command to start the Docker container:
+   ```sh
+   docker run -it --rm github-mcp-server
+   ```
+
+These steps will build the Docker image using the `Dockerfile` and then run the container with the built image. The container will execute the `github-mcp-server` with the `stdio` command as specified in the `Dockerfile`.
+
 ### Build from source
 
 If you don't have Docker, you can use `go` to build the binary in the
